@@ -1,0 +1,13 @@
+<ul>
+  @for(dish of dishes; track dish){
+    <div>
+      <h5>{{dish.name }}</h5>
+      <div class="text-wrapper">
+        @for(item of dish.menuItems; track item) {
+          <p> {{item.name}}</p>
+          <p> {{item.price}}</p>
+        }
+      </div>
+    </div>
+  }
+</ul>

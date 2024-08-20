@@ -1,0 +1,327 @@
+{
+
+  "restaurants": [
+    {
+      "provinces": ["western-cape","northern-cape", "eastern-cape", "free-state"],
+      "name": "Savory Table",
+      "dishes": [
+        {
+          "name": "Appetizers/Starters",
+          "menuItems": [
+            {
+              "name": "Deviled eggs",
+              "price": 82
+            },
+            {
+              "name": "Stuffed mushrooms",
+              "price": 91
+            },
+            {
+              "name": "Jalapeno Poppers",
+              "price": 60
+            },
+            {
+              "name": "Barbecue chicken wings",
+              "price": 94
+            },
+            {
+              "name": "Caprese Skewers",
+              "price": 56
+            },
+            {
+              "name": "Tomato crostini",
+              "price": 74
+            },
+            {
+              "name": "Tuna empanadillas",
+              "price": 104
+            }
+          ]
+        },
+        {
+          "name": "Salads",
+          "menuItems": [
+            {
+              "name": "Vegan Buddha Bowl",
+              "price": 75
+            },
+            {
+              "name": "Grilled Chicken Caesar Salad",
+              "price": 80
+            }
+            ]
+        },
+        {
+          "name": "Main Courses",
+          "menuItems": [
+            {
+              "name": "Margherita Pizza",
+              "price": 82
+            }
+          ]
+        },
+        {
+          "name": "Seafood",
+          "menuItems": [
+            {
+              "name": "Shrimp Scampi Linguine",
+              "price": 90
+            }
+          ]
+        }
+      ],
+      "rating": 4.8,
+      "reviews": 178
+    },
+    {
+      "provinces": ["western-cape","northern-cape", "kzn","free-state"],
+      "name": "The Urban Fork",
+      "dishes": [
+        {
+          "name": "Soups",
+          "menuItems": [
+            {
+              "name": "Creamy Tomato Basil Soup",
+              "price": 65
+            }
+          ]
+        },
+        {
+          "name": "Pasta/Noodles",
+          "menuItems": [
+            {
+              "name": "Spaghetti Carbonara",
+              "price": 78
+            }
+          ]
+        },
+        {
+          "name": "Burgers/Sandwiches",
+          "menuItems": [
+            {
+              "name": "Deviled eggs",
+              "price": 82
+            }
+          ]
+        },
+        {
+          "name": "Desserts",
+          "menuItems": [
+            {
+              "name": "Chocolate Lava Cakes",
+              "price": 92
+            }
+          ]
+        },
+        {
+          "name": "Main Courses",
+          "menuItems": [
+            {
+              "name": "Ribeye Steak with Garlic Mashed Potatoes",
+              "price": 120
+            }
+          ]
+        }
+      ],
+      "rating": 4.8,
+      "reviews": 236
+    },
+    {
+      "provinces": ["western-cape", "eastern-cape", "gauteng", "kzn"],
+      "name": "Harvest & Hearth",
+      "dishes": [
+        {
+          "name": "Appetizers/Starters",
+          "menuItems": [
+            {
+              "name": "Deviled eggs",
+              "price": 82
+            },
+            {
+              "name": "Stuffed mushrooms",
+              "price": 91
+            },
+            {
+              "name": "Jalapeno Poppers",
+              "price": 60
+            },
+            {
+              "name": "Barbecue chicken wings",
+              "price": 94
+            },
+            {
+              "name": "Caprese Skewers",
+              "price": 56
+            },
+            {
+              "name": "Tomato crostini",
+              "price": 74
+            },
+            {
+              "name": "Tuna empanadillas",
+              "price": 104
+            }
+          ]
+        },
+        {
+          "name": "Salads",
+          "menuItems": [
+            {
+              "name": "Vegan Buddha Bowl",
+              "price": 75
+            },
+            {
+              "name": "Grilled Chicken Caesar Salad",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "name": "Main Courses",
+          "menuItems": [
+            {
+              "name": "Margherita Pizza",
+              "price": 82
+            }
+          ]
+        },
+        {
+          "name": "Seafood",
+          "menuItems": [
+            {
+              "name": "Shrimp Scampi Linguine",
+              "price": 90
+            }
+          ]
+        }
+      ],
+      "rating": 4.2,
+      "reviews": 349
+    },
+    {
+      "provinces": ["western-cape", "gauteng", "kzn","free-state"],
+      "name": "Crimson Spoon",
+      "dishes": [
+        {
+          "name": "Soups",
+          "menuItems": [
+            {
+              "name": "Creamy Tomato Basil Soup",
+              "price": 65
+            }
+          ]
+        },
+        {
+          "name": "Pasta/Noodles",
+          "menuItems": [
+            {
+              "name": "Spaghetti Carbonara",
+              "price": 78
+            }
+          ]
+        },
+        {
+          "name": "Burgers/Sandwiches",
+          "menuItems": [
+            {
+              "name": "Deviled eggs",
+              "price": 82
+            }
+          ]
+        },
+        {
+          "name": "Desserts",
+          "menuItems": [
+            {
+              "name": "Chocolate Lava Cakes",
+              "price": 92
+            }
+          ]
+        },
+        {
+          "name": "Main Courses",
+          "menuItems": [
+            {
+              "name": "Ribeye Steak with Garlic Mashed Potatoes",
+              "price": 120
+            }
+          ]
+        }
+      ],
+      "rating": 4.2,
+      "reviews": 109
+    },
+    {
+      "provinces": ["western-cape", "eastern-cape", "gauteng"],
+      "name": "Eclipse Bistro",
+      "dishes": [
+        {
+          "name": "Appetizers/Starters",
+          "menuItems": [
+            {
+              "name": "Deviled eggs",
+              "price": 82
+            },
+            {
+              "name": "Stuffed mushrooms",
+              "price": 91
+            },
+            {
+              "name": "Jalapeno Poppers",
+              "price": 60
+            },
+            {
+              "name": "Barbecue chicken wings",
+              "price": 94
+            },
+            {
+              "name": "Caprese Skewers",
+              "price": 56
+            },
+            {
+              "name": "Tomato crostini",
+              "price": 74
+            },
+            {
+              "name": "Tuna empanadillas",
+              "price": 104
+            }
+          ]
+        },
+        {
+          "name": "Salads",
+          "menuItems": [
+            {
+              "name": "Vegan Buddha Bowl",
+              "price": 75
+            },
+            {
+              "name": "Grilled Chicken Caesar Salad",
+              "price": 80
+            }
+          ]
+        },
+        {
+          "name": "Main Courses",
+          "menuItems": [
+            {
+              "name": "Margherita Pizza",
+              "price": 82
+            }
+          ]
+        },
+        {
+          "name": "Seafood",
+          "menuItems": [
+            {
+              "name": "Shrimp Scampi Linguine",
+              "price": 90
+            }
+          ]
+        }
+      ],
+      "rating": 4.4,
+      "reviews": 247
+    }
+  ]
+}
