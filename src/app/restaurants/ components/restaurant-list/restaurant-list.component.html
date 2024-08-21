@@ -1,21 +1,36 @@
- <div class="container">
-
-     @for(restaurant of restaurantsDetail; track restaurant){
-       <div class="wrapper">
-       @if(restaurant.provinces.includes(province)){
-         <div (click)="showMenuList(restaurant.name)">
-           <h3>{{restaurant.name}}</h3>
-           <span>{{restaurant.rating}}/5.0</span> <span>{{restaurant.reviews}} reviews</span>
-         </div>
-       }
-         @if(selectedRestaurant === restaurant.name){
-
-       <app-menu-list [dishes]="restaurant.dishes"></app-menu-list>
-         }
-       </div>
-     }
 
 
+<div class="container">
 
- </div>
+  <div class="restaurant-container">
+    @for(restaurant of restaurantsDetail; track restaurant){
+      <div class="restaurant-wrapper">
+        @if(restaurant.provinces.includes(province)){
+          <div
+            class="text-wrapper"
+            (click)="showMenuList(restaurant.name)"
+            [ngClass]="{'active': selectedRestaurant === restaurant.name}"
+          >
+            <h3>{{restaurant.name}}</h3>
+            <div class="ratings">
+             <img src="assets/star.svg"/> <span>{{restaurant.rating}}/5.0</span> <div class="line"></div> <span>{{restaurant.reviews}} reviews</span>
 
+            </div>
+          </div>
+        }
+      </div>
+    }
+
+  </div>
+
+  <div class="menu-container">
+    @for(restaurant of restaurantsDetail; track restaurant){
+      <div class="wrapper">
+        @if(selectedRestaurant === restaurant.name){
+          <app-menu-list [dishes]="restaurant.dishes"></app-menu-list>
+        }
+      </div>
+    }
+
+  </div>
+</div>

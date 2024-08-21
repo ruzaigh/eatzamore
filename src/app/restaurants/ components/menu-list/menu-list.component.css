@@ -1,0 +1,20 @@
+:host{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  mat-accordion{
+    width: 768px;
+    mat-expansion-panel{
+      mat-expansion-panel-header{
+        height: 80px;
+        img{
+          height: 48px;
+        }
+      }
+      .text-wrapper{
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
