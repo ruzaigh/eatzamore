@@ -1,13 +1,17 @@
-<ul>
   @for(dish of dishes; track dish){
-    <div>
-      <h5>{{dish.name }}</h5>
-      <div class="text-wrapper">
+    <mat-accordion>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title> {{dish.name }} </mat-panel-title>
+          <img [src]="dishImageMap[dish.name] || 'assets/starters-icon.png'" />
+        </mat-expansion-panel-header>
         @for(item of dish.menuItems; track item) {
-          <p> {{item.name}}</p>
-          <p> {{item.price}}</p>
+          <div class="text-wrapper">
+            <p> {{item.name}}</p>
+            <p> R{{item.price}}</p>
+          </div>
+
         }
-      </div>
-    </div>
+      </mat-expansion-panel>
+    </mat-accordion>
   }
-</ul>
