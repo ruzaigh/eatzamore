@@ -5,6 +5,7 @@
   background-position: center;
   height: 100vh;
   .wrapper{
+    padding-top: 64px;
     display: flex;
     flex-direction: column;
     align-items: center;
