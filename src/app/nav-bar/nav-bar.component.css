@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   .container{
-
     display: flex;
     background: #fff;
     border-radius: 14px;
@@ -36,6 +35,9 @@
         background-color: #FE043C;
         color: #fff;
       }
+    }
+    @media (max-width: 1024px) {
+      width: unset;
     }
   }
 }
